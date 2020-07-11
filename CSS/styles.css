@@ -4,9 +4,14 @@
 body{
 	margin: 0px;
 	text-align: center;
+	color: white;
 	font-family: sans-serif;
-	color: white; 
 	background-color: #111111;
+}
+h1{
+
+	font-size: 5.625rem;
+	margin : 50px auto 0 auto;
 }
 
 hr{
@@ -17,18 +22,21 @@ hr{
 	color: white;
 }
 h2{
-	font-family: 'Merriweather', serif;
-	font-size: 450%;
-	color: #66fcf1;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5rem;
+	font-weight: normal;
+	padding-bottom: 10px;
+	color : #66BFBF;
 }
+
 h3{
 	color : white;
 	font-family: 'Sacramento', cursive;
-	font-weight: lighter;
-	font-size: 30.4px;
+	font-weight: normal;
 }
 p{
 	font-family: 'Merriweather', serif;
+	line-height: 2;
 }
 
 a{
@@ -40,101 +48,104 @@ a{
 
 .intro {
 	background-color: #111111;
-	width: 50%;
-	margin: auto;
-	font-size: 200%;
-}
-.intro-head{
-	color: white;
-	padding-top: 50px;
-	font-family: 'Merriweather', serif;
-}
-
-.background-img{
-	width: 80%;
-	margin: auto;
-}
-
-.middle-container{
-
-	margin: 0px auto;
-	width: 75%
+	padding-top: 100px;
+	position: relative;
 }
 
 .title-head{
 	color: white;
-	font-family: 'Sacramento', cursive;
-	font-size: 175%;
 }
+
+
+.intro-head{
+	color: white;
+	font-family: 'Merriweather', serif;
+}
+
+
+.head{
+	color: #66BFBF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5rem;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+
+.intro_writing{
+	width: 30%;
+	margin: auto;
+}
+
+
+.background-img{
+	height: 336.375px;
+	width: 598px;
+}
+
+.skills{
+	text-align: center;
+}
+
+.middle-container{
+
+	margin: 100px 0;
+}
+
 
 .pro{
 	text-decoration: underline;
 	color: #ff0000;
 	background-color: #111111;
 }
+
+
 .profile_pic{
 	margin-top: 0px;
 	width: 15%;
 	margin-bottom: 30px;
 }
-.bottom-container{
-	background-color: #204051;
-	margin : 0px;
-	padding: 20px;
-}
+
 .code{
 	font-family: monospace;
 	font-size: 16px;
 	color: red;
 }
+
+
 .skill-row{
-	width: 75%;
-	margin: 200px auto;
+	width: 60%;
+	margin: 100px auto 100px auto;
 	text-align: left;
-	line-height: 1.2;
 }
-.skill-image{
+
+.ml{
 	width: 25%;
-	margin-bottom: auto;
+	float: left;
+	margin-right: 60px;
 }
-.intro_writing{
-	width: 50%;
-	margin: auto;
-	margin-bottom: 100px;
+
+.algo{
+	width: 25%;
+	float: left;
+	margin-right: 60px;
 }
-.my_skills{
-	margin: 100px;
-}
+
 .wd{
 	float: right;
-	margin-left: 25%;
+	width: 25%;
+	margin-left: 60px;
 }
-.algo{
-	float: left;
-	margin-right: 25%;
+
+.contact-msg{
+	width: 40%;
+	margin: 40px auto 60px;
 }
-.ml{
-	float: left;
-	margin-right: 25%;
+
+
+.bottom-container{
+	background-color: #204051;
+	padding: 50px 0 20px;
 }
-.contact-me {
-	color: white;
-	padding: 30px;
-	width: 45%;
-	margin : auto;
-	padding-bottom: 40px;
-}
-@media screen and (max-width: 1060px) {
-
-    #primary { width:67%; }
-
-    #secondary { width:30%; margin-left:3%;}  
-
-}
-@media screen and (max-width: 768px) {
-
-    #primary { width:100%; }
-
-    #secondary { width:100%; margin:0; border:none; }
-
+.heads{
+	font-size: 2.0rem;
 }
