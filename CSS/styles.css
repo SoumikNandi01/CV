@@ -18,14 +18,14 @@ hr{
 }
 h2{
 	font-family: 'Merriweather', serif;
-	font-size: 2.5rem;
+	font-size: 450%;
 	color: #66fcf1;
 }
 h3{
 	color : white;
 	font-family: 'Sacramento', cursive;
 	font-weight: lighter;
-	font-size: 1.9rem;
+	font-size: 30.4px;
 }
 p{
 	font-family: 'Merriweather', serif;
@@ -40,23 +40,33 @@ a{
 
 .intro {
 	background-color: #111111;
-	height: 700px;
+	width: 50%;
+	margin: auto;
+	font-size: 200%;
 }
 .intro-head{
 	color: white;
 	padding-top: 50px;
-	margin: auto;
 	font-family: 'Merriweather', serif;
-	background-color: #111111;
-	font-size: 4.375rem;
 }
+
+.background-img{
+	width: 80%;
+	margin: auto;
+}
+
+.middle-container{
+
+	margin: 0px auto;
+	width: 75%
+}
+
 .title-head{
 	color: white;
-	margin: auto;
 	font-family: 'Sacramento', cursive;
-	background-color: #111111;
-	font-size: 3.125rem;
+	font-size: 175%;
 }
+
 .pro{
 	text-decoration: underline;
 	color: #ff0000;
@@ -64,13 +74,8 @@ a{
 }
 .profile_pic{
 	margin-top: 0px;
-	width: 13.9375rem;
+	width: 25%;
 	margin-bottom: 30px;
-}
-.middle-container{
-
-	margin: 0px auto;
-	background-color: #111111;
 }
 .bottom-container{
 	background-color: #204051;
@@ -79,20 +84,21 @@ a{
 }
 .code{
 	font-family: monospace;
-	font-size: 1rem;
+	font-size: 16px;
+	color: red;
 }
 .skill-row{
-	width: 50%;
+	width: 75%;
 	margin: 100px auto;
 	text-align: left;
 	line-height: 1.2;
 }
 .skill-image{
-	width: 10.9375rem;
-	margin-bottom: 20px;
+	width: 25%;
+	margin-bottom: auto;
 }
 .intro_writing{
-	width: 30%;
+	width: 50%;
 	margin: auto;
 	margin-bottom: 100px;
 }
@@ -118,6 +124,17 @@ a{
 	margin : auto;
 	padding-bottom: 40px;
 }
-.background-img{
-	width: 70rem;
+@media screen and (max-width: 1060px) {
+
+    #primary { width:67%; }
+
+    #secondary { width:30%; margin-left:3%;}  
+
+}
+@media screen and (max-width: 768px) {
+
+    #primary { width:100%; }
+
+    #secondary { width:100%; margin:0; border:none; }
+
 }
