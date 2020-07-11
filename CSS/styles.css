@@ -1,0 +1,123 @@
+
+/********************TAG SPECIFIERS********************************************/
+
+body{
+	margin: 0px;
+	text-align: center;
+	font-family: sans-serif;
+	color: white; 
+	background-color: #111111;
+}
+
+hr{
+	border: dotted 6px;
+	width: 10%;
+	margin: 100px auto;
+	border-bottom: 0px;
+	color: white;
+}
+h2{
+	font-family: 'Merriweather', serif;
+	font-size: 2.5rem;
+	color: #66fcf1;
+}
+h3{
+	color : white;
+	font-family: 'Sacramento', cursive;
+	font-weight: lighter;
+	font-size: 1.9rem;
+}
+p{
+	font-family: 'Merriweather', serif;
+}
+
+a{
+	color: yellow;
+}
+
+
+/***********************CLASS SPECIFIERS****************************/
+
+.intro {
+	background-color: #111111;
+	height: 700px;
+}
+.intro-head{
+	color: white;
+	padding-top: 50px;
+	margin: auto;
+	font-family: 'Merriweather', serif;
+	background-color: #111111;
+	font-size: 4.375rem;
+}
+.title-head{
+	color: white;
+	margin: auto;
+	font-family: 'Sacramento', cursive;
+	background-color: #111111;
+	font-size: 3.125rem;
+}
+.pro{
+	text-decoration: underline;
+	color: #ff0000;
+	background-color: #111111;
+}
+.profile_pic{
+	margin-top: 0px;
+	width: 13.9375rem;
+	margin-bottom: 30px;
+}
+.middle-container{
+
+	margin: 0px auto;
+	background-color: #111111;
+}
+.bottom-container{
+	background-color: #204051;
+	margin : 0px;
+	padding: 20px;
+}
+.code{
+	font-family: monospace;
+	font-size: 1rem;
+}
+.skill-row{
+	width: 50%;
+	margin: 100px auto;
+	text-align: left;
+	line-height: 1.2;
+}
+.skill-image{
+	width: 10.9375rem;
+	margin-bottom: 20px;
+}
+.intro_writing{
+	width: 30%;
+	margin: auto;
+	margin-bottom: 100px;
+}
+.my_skills{
+	margin: 100px;
+}
+.wd{
+	float: right;
+	margin-left: 70px;
+}
+.algo{
+	float: left;
+	margin-right: 70px;
+}
+.ml{
+	float: left;
+	margin-right: 70px;
+}
+.contact-me {
+	color: white;
+	padding: 30px;
+	width: 35%;
+	margin : auto;
+	padding-bottom: 40px;
+}
+.background-img{
+	width: 70rem;
+}
